@@ -9,3 +9,18 @@
 .clr {
 	clear:both;
 }
+.apple_android img {
+	width: 134px;
+	height: 44px;
+}
+.login  {
+	border: solid 1px grey;
+	margin-bottom: 100px;
+}
+.create_account {
+	border: solid 1px grey;
+	margin-bottom: 100px;
+}
+.form_input {
+	display: block;
+}
