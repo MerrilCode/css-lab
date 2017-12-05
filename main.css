@@ -1,3 +1,15 @@
+p {
+	font-size: 17px;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+    color: #999;
+    font-weight: 600;
+}
+
+h3 {
+	text-align: center;
+}
 .main_class {
 	width:40%;
 	float: left;
@@ -7,29 +19,87 @@
 
 }
 
-.main_sub1 {
-	width: 100%;
+
+
+.main_sub1 img {
+	
+	margin-left: 100px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+
+
 }
+
+input[type="text"] {
+             display: block;
+             margin : 0 auto;
+             margin-bottom: 10px;
+             text-align: center;
+             height:20px;
+			width: 200px;
+			padding: 9px 0 7px 8px;
+			background: #fafafa;
+			font-size: 14px;
+			color: #999;
+
+    	}
+
 .clr {
 	clear:both;
 }
-button {
-	height: 30px;
-	width: 100px;
-	background-color: blue;
-}
+
 .apple_android img {
 	width: 134px;
 	height: 44px;
+	padding-left:20%;
 }
 .login  {
-	border: solid 1px grey;
-	margin-bottom: 30px;
+	border: 1px solid #e6e6e6;
+	margin: 0 0 10px;
+    padding: 10px 0;
 }
 .create_account {
 	border: solid 1px grey;
 	margin-bottom: 30px;
+	padding-left: 100px;
+	padding-right: 100px;	
+	border: 1px solid #e6e6e6;
+
 }
-.form_input {
+
+.footer {
+	text-align: center;
+	display: inline-block;
+	color: #003569;
+	padding-right: 30px;
+	 display: block;
+     margin : 30px auto;
+
+}
+.footer_list {
+	margin-right: 15px;
+}
+#facebook_login, #signup {
 	display: block;
+    margin : 0 auto;
+    height:30px;
+	width: 200px;
+	background: #3897f0;
+    border-color: #3897f0;
+    color: #fff;
+    font-size: 14px;
+    
+
+
+}
+#copyright {
+	 color: #999;
+	 vertical-align: baseline;
+	 float: right;
+	 margin-right: 100px;
+	 
+}
+#or {
+	line-height: 15px;
+
 }

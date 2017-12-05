@@ -3,6 +3,7 @@
 <head>
 	<title>Instagram</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class="main_class">
@@ -12,24 +13,25 @@
 	</div>
 
 	<div class="main_class">
-	<div class="main_sub1">
+	<div class="main_sub2">
 		<div class="create_account">
 			<h3>Instagram</h3>
 			<p>Sign up to see photos and videos from your friends</p>
-			<button type="button">Login with Facebook</button>
-			<p>OR</p>
+			<button id = "facebook_login" type="button">Login with Facebook</button>
+			<p>OR </p> 
+			
 			<form>
 			  <input class="form_input" type="text" name="firstname" value="Mobile Number or Email">
 			  <input class="form_input" type="text" name="lastname" value="Full Name">
 			  <input class="form_input" type="text" name="firstname" value="Username">
 			  <input class="form_input" type="text" name="lastname" value="Password">
-			  <button class="form_input" type="submit" > Signup</button> 
+			  <button id="signup" type="submit" > Signup </button> 
 			</form>
-			<p>By signing up, you agree to out Terms&Privacy Policy</p>		
+			<p>By signing up, you agree to our Terms & Privacy Policy</p>		
 		</div>
 
 		<div class="login">
-			<p>Have an account?<a href="#">Log in</a></p>			
+			<p>Have an account?<span><a href="#">Log in</a></span></p>			
 		</div>
 
 		<div class="apple_android">
@@ -45,18 +47,19 @@
 		<footer>
 			<div>
 				<nav>
-						<a href="#">ABOUT US</a>
-						<a href="#">SUPPORT</a>
-						<a href="#">BLOG</a>
-						<a href="#">PRESS</a>
-						<a href="#">API</a>
-						<a href="#">JOBS</a>
-						<a href="#">PRIVACY</a>
-						<a href="#">TERMS</a>
-						<a href="#">DIRECTORY</a>
-						<a href="#">LANGUAGE</a>		
+						<a class="footer_list">ABOUT US</a>
+						<a class="footer_list">SUPPORT</a>
+						<a class="footer_list">BLOG</a>
+						<a class="footer_list">PRESS</a>
+						<a class="footer_list">API</a>
+						<a class="footer_list">JOBS</a>
+						<a class="footer_list">PRIVACY</a>
+						<a class="footer_list">TERMS</a>
+						<a class="footer_list">DIRECTORY</a>
+						<a class="footer_list">LANGUAGE</a>
+						<span id="copyright">© 2017 Instagram</span>		
 				</nav>
-				<span>© 2017 Instagram</span>
+				
 			</div>
 		</footer>
 		</div>
