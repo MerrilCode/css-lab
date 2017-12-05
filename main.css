@@ -1,0 +1,11 @@
+.main_class {
+	width:50%;
+	float: left;
+}
+
+.main_sub1 {
+	width: 100%;
+}
+.clr {
+	clear:both;
+}
