@@ -1,6 +1,10 @@
 .main_class {
-	width:50%;
+	width:40%;
 	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+
+
 }
 
 .main_sub1 {
@@ -9,17 +13,22 @@
 .clr {
 	clear:both;
 }
+button {
+	height: 30px;
+	width: 100px;
+	background-color: blue;
+}
 .apple_android img {
 	width: 134px;
 	height: 44px;
 }
 .login  {
 	border: solid 1px grey;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 .create_account {
 	border: solid 1px grey;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 .form_input {
 	display: block;
