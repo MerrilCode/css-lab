@@ -1,3 +1,4 @@
+
 p {
 	font-size: 17px;
     line-height: 20px;
@@ -5,44 +6,44 @@ p {
     text-align: center;
     color: #999;
     font-weight: 600;
+    padding: 10px;
 }
 
-h3 {
+h2 {
 	text-align: center;
 }
-.main_class {
+
+.main_class1 {
 	width:40%;
 	float: left;
-	margin-left: 5%;
-	margin-right: 5%;
-
-
+	margin-left: 10%;
 }
 
+.main_class2 {
+	width:40%;
+	float: left;
+	margin-right: 10%;
+}
 
-
-.main_sub1 img {
-	
-	margin-left: 100px;
-    position: relative;
+.main_sub1 img {	
+	margin-left: 50px;
+	margin-right: 10px;    
     border: 1px solid #e6e6e6;
-
-
 }
 
 input[type="text"] {
-             display: block;
-             margin : 0 auto;
-             margin-bottom: 10px;
-             text-align: center;
-             height:20px;
-			width: 200px;
-			padding: 9px 0 7px 8px;
-			background: #fafafa;
-			font-size: 14px;
-			color: #999;
+    display: block;
+    margin : 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height:20px;
+	width: 200px;
+	padding: 9px 0 7px 8px;
+	background: #fafafa;
+	font-size: 14px;
+	color: #999;
+}
 
-    	}
 
 .clr {
 	clear:both;
@@ -53,18 +54,19 @@ input[type="text"] {
 	height: 44px;
 	padding-left:20%;
 }
+
 .login  {
 	border: 1px solid #e6e6e6;
 	margin: 0 0 10px;
     padding: 10px 0;
 }
+
 .create_account {
 	border: solid 1px grey;
 	margin-bottom: 30px;
 	padding-left: 100px;
 	padding-right: 100px;	
 	border: 1px solid #e6e6e6;
-
 }
 
 .footer {
@@ -72,13 +74,14 @@ input[type="text"] {
 	display: inline-block;
 	color: #003569;
 	padding-right: 30px;
-	 display: block;
-     margin : 30px auto;
-
+	display: block;
+    margin : 30px auto;
 }
+
 .footer_list {
 	margin-right: 15px;
 }
+
 #facebook_login, #signup {
 	display: block;
     margin : 0 auto;
@@ -88,18 +91,24 @@ input[type="text"] {
     border-color: #3897f0;
     color: #fff;
     font-size: 14px;
-    
-
-
 }
+
 #copyright {
 	 color: #999;
 	 vertical-align: baseline;
 	 float: right;
-	 margin-right: 100px;
-	 
+	 margin-right: 100px;	 
 }
+
 #or {
 	line-height: 15px;
 
+}
+
+#log {
+	color: blue;
+}
+#get_app {
+	color: black;
+	text-align: center;
 }

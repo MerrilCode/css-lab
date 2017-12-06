@@ -6,20 +6,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="main_class">
+	<!-- Block for the main image -->
+	<div class="main_class1">
 	<div class="main_sub1">
-		<img src="https://www.instagram.com/static/images/homepage/screenshot1.jpg/aafd8c6b005d.jpg">		
+		<img src="instagram.png">		
 	</div>
 	</div>
-
-	<div class="main_class">
+	<!-- Second block for account details -->
+	<div class="main_class2">
 	<div class="main_sub2">
+		<!-- Nested div for creating account  -->
 		<div class="create_account">
-			<h3>Instagram</h3>
+			<h2>Instagram</h2>
 			<p>Sign up to see photos and videos from your friends</p>
 			<button id = "facebook_login" type="button">Login with Facebook</button>
-			<p>OR </p> 
-			
+			<p>OR </p> 			
 			<form>
 			  <input class="form_input" type="text" name="firstname" value="Mobile Number or Email">
 			  <input class="form_input" type="text" name="lastname" value="Full Name">
@@ -29,13 +30,13 @@
 			</form>
 			<p>By signing up, you agree to our Terms & Privacy Policy</p>		
 		</div>
-
+		<!-- Nested div for login -->
 		<div class="login">
-			<p>Have an account?<span><a href="#">Log in</a></span></p>			
+			<p>Have an account?<span><a id="log">Log in</a></span></p>			
 		</div>
-
+		<!-- Nested div for apple and android logo -->
 		<div class="apple_android">
-			<p>Get the app</p>
+			<p id="get_app">Get the app</p>
 			<img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/4b70f6fae447.png">
 			<img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/f06b908907d5.png">
 		</div>
@@ -43,6 +44,7 @@
 		</div>
 
 	<div class="clr"></div>
+
 		<div class="footer">
 		<footer>
 			<div>
@@ -59,10 +61,8 @@
 						<a class="footer_list">LANGUAGE</a>
 						<span id="copyright">© 2017 Instagram</span>		
 				</nav>
-				
-			</div>
-		</footer>
-		</div>
-
+			</footer>				
+		</div>		
+	</div>
 </body>
 </html>
